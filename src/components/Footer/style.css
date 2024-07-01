@@ -1,0 +1,19 @@
+.footer {
+    background: linear-gradient(61deg, #D39529 0.45%, #FAC96D 50%, #FFE6B8 99.55%);
+}
+
+.footer-logo {
+    max-width: 100%;
+}
+
+.footer-logo a {
+    font-size: 1.125rem;
+    text-decoration: none;
+    color: var(--primary);
+}
+
+.footer-logo h4 {
+    font-family: okemah semiBold;
+    font-size: 1.5rem;
+    color: var(--primary);
+}
