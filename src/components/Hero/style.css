@@ -1,0 +1,18 @@
+.hero-section {
+    background: var(--black);
+    height: 60dvh;
+}
+
+.hero-img-wrapper {
+    position: relative;
+}
+
+.hero-img-wrapper img{
+    max-width: 100%;
+}
+
+.ellipse {
+    position: absolute;
+    left: 0rem;
+    bottom: 5rem;
+}

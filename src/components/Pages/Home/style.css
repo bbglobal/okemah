@@ -1,0 +1,208 @@
+.about {
+    background: var(--primary);
+    padding: 15vh 1.5vw 0 1.5vw;
+}
+
+.about-img {
+    max-width: 100%;
+}
+
+.about-head-txt {
+    background: var(--txt-gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: left;
+    font-size: 3rem;
+    font-style: normal;
+    line-height: 109.5%;
+}
+
+.about-txt {
+    color: var(--white);
+    font-size: 1.125rem;
+    font-style: normal;
+    line-height: normal;
+}
+
+.blog-news {
+    background: var(--primary);
+    padding: 15vh 1.5vw 0 1.5vw;
+}
+
+.blog-head-txt {
+    text-align: center;
+    background: var(--txt-three-gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+    font-style: normal;
+    line-height: 116.5%;
+}
+
+.light {
+    text-align: center;
+    font-family: okemah light, sans-serif;
+    background: linear-gradient(268deg, #F8D368 23.3%, #927C3D 76.7%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.blog-small {
+    width: 7.125rem;
+    font-size: 1.25rem;
+}
+
+.blog-title {
+    background: var(--txt-three-gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.e-books {
+    background: var(--primary);
+    padding: 15vh 1.5vw 0 1.5vw;
+}
+
+.books-head-txt {
+    background: linear-gradient(268deg, #F8D368 23.3%, #927C3D 76.7%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-size: 3rem;
+    font-style: normal;
+    line-height: 120%;
+}
+
+.e-book-wrapper {
+    width: 25.875rem;
+    height: 22.5rem;
+    border-radius: 2.75rem;
+    margin: 1rem 0;
+    background: linear-gradient(260deg, #F1B749 11.49%, #FFD183 41.14%, #D39529 88.51%);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.e-book-txt {
+    color: var(--primary);
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 120%;
+}
+
+.btn-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-load-more {
+    background: transparent;
+    border: none;
+    background: linear-gradient(89deg, #FAC96D 27.63%, #D39529 72.37%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-family: okemah regular, sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    line-height: 109.5%;
+    margin: 1.5rem 0;
+}
+
+.podcast {
+    background: var(--primary);
+    padding: 15vh 1.5vw 0 1.5vw;
+}
+
+.podcast-head-txt {
+    background: linear-gradient(87deg, #C49B27 21.85%, #F8D368 78.15%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-size: 3rem;
+    font-style: normal;
+    line-height: normal;
+}
+
+.store {
+    background: var(--primary);
+    padding: 15vh 1.5vw 0 1.5vw;
+}
+
+.store-wrapper {
+    width: 18.0625rem;
+    height: 13.4375rem;
+    border-radius: 2.1875rem;
+    margin: 1rem 0;
+    background: linear-gradient(61deg, #D39529 0.45%, #FAC96D 50%, #FFE6B8 99.55%);
+    box-shadow: 0px 4px 200px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.store-txt {
+    color: var(--primary);
+    text-align: center;
+    font-size: 1.375rem;
+    line-height: 120%;
+}
+
+.newsletter {
+    background: var(--primary);
+    padding: 15vh 1.5vw 15vh 1.5vw;
+}
+
+.newsletter-head-txt {
+    background: linear-gradient(90deg, #FAC96D 0%, #D39529 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-family: okemah medium, sans-serif;
+    font-size: 3.125rem;
+    font-style: normal;
+    line-height: normal;
+}
+
+.newsletter-txt {
+    color: var(--white);
+    text-align: center;
+    font-size: 1.125rem;
+    font-style: normal;
+    line-height: normal;
+}
+
+#newsletter {
+    width: 28rem;
+    height: 3.4375rem;
+    border-radius: 2.0625rem;
+    background: var(--input-bg-color);
+    box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.25);
+    padding: 0 1rem;
+}
+
+#newsletter:focus-visible {
+    outline: none;
+}
+
+
+#newsletter::placeholder {
+    color: var(--text);
+}
+
+.newsletter-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
