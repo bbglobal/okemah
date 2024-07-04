@@ -71,3 +71,11 @@ h3 {
 p {
   font-family: okemah regular, sans-serif;
 }
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
