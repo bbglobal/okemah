@@ -1,7 +1,7 @@
 :root {
   --primary: #221B1D;
   --text: #B99C6A;
-  --white: #fff;
+  --white: #F5F5F5;
   --black: #080808;
   --input-bg-color: #DDA23A;
   --gradient-start: #D39529;
@@ -78,4 +78,9 @@ a {
 
 a:hover {
   text-decoration: none;
+}
+
+.padding-bottom {
+  background: var(--primary);
+  padding-bottom: 15vh;
 }

@@ -1,5 +1,7 @@
 .header {
     background: var(--primary);
+    position: relative;
+    z-index: 1;
     padding: 0 1rem;
     width: 100%;
 }

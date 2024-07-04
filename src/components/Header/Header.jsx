@@ -39,7 +39,7 @@ const Header = () => {
           </li>
 
           <li>
-            <NavLink to={`/podcast-Episodes`}>
+            <NavLink to={`/podcast-episodes`}>
               Podcast Episodes
             </NavLink>
           </li>
@@ -103,7 +103,7 @@ const Header = () => {
           </li>
 
           <li>
-            <NavLink to={`/podcast-Episodes`}>
+            <NavLink to={`/podcast-episodes`}>
               Podcast Episodes
             </NavLink>
           </li>

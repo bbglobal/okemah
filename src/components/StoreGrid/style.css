@@ -1,0 +1,33 @@
+.store {
+    background: var(--primary);
+    padding: 15vh 1.5vw 0 1.5vw;
+}
+
+.store-wrapper {
+    width: 18.0625rem;
+    height: 13.4375rem;
+    border-radius: 2.1875rem;
+    margin: 1rem auto;
+    box-shadow: 0px 4px 200px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+}
+
+.store-wrapper::before {
+    content: "";
+    border-radius: 2.75rem;
+    background: linear-gradient(260deg, #F1B749 11.49%, #FFD183 41.14%, #D39529 88.51%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.store-txt {
+    color: var(--primary);
+    text-align: center;
+    font-size: 1.375rem;
+    line-height: 120%;
+    z-index: 1;
+}
