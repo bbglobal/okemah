@@ -1,4 +1,4 @@
-import { Header, Footer, ScrollToTop, Home, About, Store, Ebook, Episodes, Contact } from './components';
+import { Header, Footer, ScrollToTop, Home, About, Store, Ebook, Episodes, Contact, Blogs } from './components';
 import { Route, Routes } from 'react-router-dom';
 import Lenis from 'lenis'
 import './App.css';
@@ -26,6 +26,7 @@ function App() {
         <Route path={`/e-books`} element={<Ebook />} />
         <Route path={`/podcast-episodes`} element={<Episodes />} />
         <Route path={`/contact-us`} element={<Contact />} />
+        <Route path={`/blog-&-news`} element={<Blogs />} />
       </Routes>
 
       <Footer />
