@@ -13,5 +13,6 @@ import PodcastComponent from "./PodcastComponent";
 import Episodes from "./Pages/Episodes";
 import ContactForm from "./ContactForm";
 import Contact from "./Pages/Contact";
+import Blogs from "./Pages/Blogs";
 
-export { Header, Footer, Hero, ScrollToTop, AboutComponent, Home, About, Store, StoreGrid, EbookComponent, Ebook, PodcastComponent, Episodes, ContactForm, Contact }
+export { Header, Footer, Hero, ScrollToTop, AboutComponent, Home, About, Store, StoreGrid, EbookComponent, Ebook, PodcastComponent, Episodes, ContactForm, Contact, Blogs}
