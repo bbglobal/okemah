@@ -27,7 +27,7 @@
 
 .swiper-button-prev,
 .swiper-button-next {
-    color: var(--white);
-    width: 1.625rem;
-    height: 3.25rem;
+    color: var(--white) !important;
+    width: 1.625rem !important;
+    height: 3.25rem !important;
 }

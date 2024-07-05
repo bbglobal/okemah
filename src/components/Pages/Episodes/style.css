@@ -1,0 +1,50 @@
+.pod-audios {
+    background: var(--primary);
+    padding: 5vh 1.5vw 0 1.5vw;
+}
+
+.podcast-categories {
+    background: var(--primary);
+    padding: 5vh 1.5vw 5vh 1.5vw;
+}
+
+.cat-head-txt {
+    background: linear-gradient(87deg, #C49B27 21.85%, #F8D368 78.15%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-size: 3rem;
+    font-style: normal;
+    line-height: normal;
+    margin: 3rem auto;
+}
+
+.pod-cat-wrapper {
+    flex-direction: column;
+    display: flex;
+    gap: 1rem;
+}
+
+.pod-video {
+    width: 100%;
+    height: 22.5rem;
+    border-radius: 2.75rem;
+    background: linear-gradient(260deg, #F1B749 11.49%, #FFD183 41.14%, #D39529 88.51%);
+}
+
+.pod-title-small {
+    font-family: okemah light, sans-serif;
+    color: var(--text-color);
+    font-size: 1.5rem;
+    font-style: normal;
+    line-height: 120%;
+}
+
+.pod-title {
+    font-family: okemah medium, sans-serif;
+    color: var(--text-color);
+    font-size: 2rem;
+    font-style: normal;
+    line-height: 120%;
+}
