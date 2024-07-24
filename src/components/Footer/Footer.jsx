@@ -35,7 +35,7 @@ const Footer = () => {
             </div>
 
             <div className="footer-link">
-              <NavLink to={`/podcasts-episodes`}>Podcast Episods</NavLink>
+              <NavLink to={`/podcasts-episodes`}>Podcast Episodes</NavLink>
             </div>
 
             <div className="footer-link">

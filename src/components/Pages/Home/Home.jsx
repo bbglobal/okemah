@@ -1,4 +1,4 @@
-import heroImg from "../../Hero/img/hero-img.png"
+import heroImg from "../../Hero/img/Okemah2.png"
 import ellipse from "../../Hero/img/ellipse.svg"
 import aboutImg from "./img/about-img.png"
 import blogOne from "./img/blog-one.png"

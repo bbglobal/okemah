@@ -9,7 +9,7 @@ const Header = () => {
       <nav className="main-header d-flex align-items-center justify-content-between gap-5">
         <div className="logo">
           <NavLink to={'/'}>
-            <img src={Logo} alt="site logo" />
+            <img className="site-logo" src={Logo} alt="site logo" />
           </NavLink>
         </div>
 

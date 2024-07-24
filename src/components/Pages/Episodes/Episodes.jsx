@@ -50,7 +50,7 @@ const Episodes = () => {
                                 <div className="pod-video"></div>
 
                                 <div className="pod-title-wrapper">
-                                    <small className="pod-title-small">Episod:01</small>
+                                    <small className="pod-title-small">Episode:01</small>
                                     <p className="pod-title">News and Politics</p>
                                 </div>
                             </div>
@@ -60,7 +60,7 @@ const Episodes = () => {
                                 <div className="pod-video"></div>
 
                                 <div className="pod-title-wrapper">
-                                    <small className="pod-title-small">Episod:01</small>
+                                    <small className="pod-title-small">Episode:01</small>
                                     <p className="pod-title">News and Politics</p>
                                 </div>
                             </div>
@@ -70,7 +70,7 @@ const Episodes = () => {
                                 <div className="pod-video"></div>
 
                                 <div className="pod-title-wrapper">
-                                    <small className="pod-title-small">Episod:01</small>
+                                    <small className="pod-title-small">Episode:01</small>
                                     <p className="pod-title">Business</p>
                                 </div>
                             </div>
@@ -80,7 +80,7 @@ const Episodes = () => {
                                 <div className="pod-video"></div>
 
                                 <div className="pod-title-wrapper">
-                                    <small className="pod-title-small">Episod:01</small>
+                                    <small className="pod-title-small">Episode:01</small>
                                     <p className="pod-title">Technology</p>
                                 </div>
                             </div>
@@ -90,7 +90,7 @@ const Episodes = () => {
                                 <div className="pod-video"></div>
 
                                 <div className="pod-title-wrapper">
-                                    <small className="pod-title-small">Episod:01</small>
+                                    <small className="pod-title-small">Episode:01</small>
                                     <p className="pod-title">Comedy</p>
                                 </div>
                             </div>
@@ -100,7 +100,7 @@ const Episodes = () => {
                                 <div className="pod-video"></div>
 
                                 <div className="pod-title-wrapper">
-                                    <small className="pod-title-small">Episod:01</small>
+                                    <small className="pod-title-small">Episode:01</small>
                                     <p className="pod-title">True Crime</p>
                                 </div>
                             </div>

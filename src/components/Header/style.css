@@ -1,9 +1,11 @@
 .header {
     background: var(--primary);
     position: relative;
-    z-index: 1;
+    z-index: 99;
     padding: 0 1rem;
     width: 100%;
+    position: sticky;
+    top: 0;
 }
 
 .header a {
@@ -24,6 +26,12 @@ ul {
 
 a:hover {
     color: var(--text);
+}
+
+.site-logo {
+    max-width: 15rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .hamburger .line {

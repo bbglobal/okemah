@@ -59,9 +59,9 @@
 
 .btn-subscribe {
     position: absolute;
-    right: 3rem;
-    width: 5.25rem;
-    height: 1.5rem;
+    right: 1rem;
+    width: 8.25rem;
+    height: 2.5rem;
     border-radius: 3.0625rem;
     border: 0px solid var(--white);
     background: var(--primary);
