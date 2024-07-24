@@ -37,6 +37,46 @@ const Blogs = () => {
 
       <section className="latest-news">
         <h2 className="latest-head-txt">Latest News</h2>
+        <Row>
+          <Col sm={`12`} md={`12`} lg={`4`}>
+            <NavLink to={`#`}>
+              <div className="latest-wrapper"></div>
+              <p className="latest-paragraph">
+                Lorem ipsum dolor sit amet consectetur. Felis scelerisque neque
+                lorem orci quis sodales amet. Vel fusce lorem bibendum et id
+                pellentesque mauris. Faucibus purus in facilisi diam nisl dolor
+                et ornare. Purus lectus mi vitae consequat ante nulla ac blandit
+                tortor.Lorem ipsum dolor sit amet consectetur. Felis scelerisque
+                neque lorem orci quis sodales amet. Vel fusce lorem bibendum et
+                id pellentesque mauris. Faucibus purus in facilisi diam nisl
+                dolor et ornare. Purus lectus mi vitae consequat ante nulla ac
+                blandit tortor.
+              </p>
+            </NavLink>
+          </Col>
+
+          <Col sm={`12`} md={`12`} lg={`8`}>
+            <div className="d-flex align-items-center gap-3">
+              <div className="latest-box">
+                <NavLink to={`#`}>
+                  <div className="latest-second-wrapper"></div>
+                </NavLink>
+                <NavLink to={`#`}>
+                  <div className="latest-second-wrapper"></div>
+                </NavLink>
+              </div>
+
+              <div className="latest-box">
+                <NavLink to={`#`}>
+                  <div className="latest-second-wrapper"></div>
+                </NavLink>
+                <NavLink to={`#`}>
+                  <div className="latest-second-wrapper"></div>
+                </NavLink>
+              </div>
+            </div>
+          </Col>
+        </Row>
       </section>
     </main>
   );
