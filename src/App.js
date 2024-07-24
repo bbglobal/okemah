@@ -1,6 +1,10 @@
 import { Header, Footer, ScrollToTop, Home, About, Store, Ebook, Episodes, Contact, Blogs } from './components';
 import { Route, Routes } from 'react-router-dom';
 import Lenis from 'lenis'
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+import 'swiper/css/free-mode';
 import './App.css';
 
 function App() {

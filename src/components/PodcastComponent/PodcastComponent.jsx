@@ -2,8 +2,6 @@
 import podcast from "../Pages/Home/img/podcast-photo.png"
 import { Container, Row, Col } from 'react-bootstrap'
 import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
-import 'swiper/css/navigation';
 import { Navigation } from 'swiper/modules';
 import "./style.css"
 
