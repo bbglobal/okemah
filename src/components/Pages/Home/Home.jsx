@@ -1,4 +1,4 @@
-import heroImg from "../../Hero/img/Okemah2.png"
+import heroImg from "../../Hero/img/hero-img.png"
 import ellipse from "../../Hero/img/ellipse.svg"
 import aboutImg from "./img/about-img.png"
 import blogOne from "./img/blog-one.png"
@@ -27,7 +27,7 @@ const Home = () => {
                 <Container fluid>
                     <Row>
                         <Col sm={`12`} md={`12`} lg={`12`}>
-                            <h2 className="blog-head-txt">BLog &amp; News</h2>
+                            <h2 className="blog-head-txt">Blog &amp; News</h2>
                             <p className="light">Discover the Latest News, Events, <br /> and Community Highlights</p>
                         </Col>
 

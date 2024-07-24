@@ -1,149 +1,147 @@
 .newsletter {
-    background: var(--primary);
-    padding: 15vh 1.5vw 0 1.5vw;
+  background: var(--primary);
+  padding: 15vh 1.5vw 0 1.5vw;
 }
 
 .newsletter-head-txt {
-    background: linear-gradient(90deg, #FAC96D 0%, #D39529 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-align: center;
-    font-family: okemah medium, sans-serif;
-    font-size: 3.125rem;
-    font-style: normal;
-    line-height: normal;
+  background: linear-gradient(90deg, #fac96d 0%, #d39529 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-family: okemah medium, sans-serif;
+  font-size: 3.125rem;
+  font-style: normal;
+  line-height: normal;
 }
 
 .newsletter-txt {
-    font-family: okemah light, sans-serif;
-    color: var(--white);
-    text-align: center;
-    font-size: 1.125rem;
-    font-style: normal;
-    line-height: normal;
-    margin-bottom: 3rem;
+  font-family: okemah light, sans-serif;
+  color: var(--white);
+  text-align: center;
+  font-size: 1.125rem;
+  font-style: normal;
+  line-height: normal;
+  margin-bottom: 3rem;
 }
 
 #newsletter {
-    width: 100%;
-    height: 3.4375rem;
-    border-radius: 2.0625rem;
-    background: var(--input-bg-color);
-    box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.25);
-    padding: 0 2rem;
-    border: none;
+  width: 100%;
+  height: 3.4375rem;
+  border-radius: 2.0625rem;
+  background: var(--input-bg-color);
+  box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.25);
+  padding: 0 2rem;
+  border: none;
 }
 
 #newsletter:focus-visible {
-    outline: none;
+  outline: none;
 }
 
-
 #newsletter::placeholder {
-    color: var(--primary);
-    font-family: okemah light, sans-serif;
-    font-size: 1.125rem;
-    font-style: normal;
-    line-height: normal;
+  color: var(--primary);
+  font-family: okemah light, sans-serif;
+  font-size: 1.125rem;
+  font-style: normal;
+  line-height: normal;
 }
 
 .newsletter-input {
-    width: 28rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    position: relative;
+  width: 28rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  position: relative;
 }
 
 .btn-subscribe {
-    position: absolute;
-    right: 1rem;
-    width: 9.25rem;
-    height: 2.5rem;
-    border-radius: 3.0625rem;
-    border: 0px solid var(--white);
-    background: var(--primary);
-    color: var(--input-bg-color);
-    font-family: okemah light, sans-serif;
-    font-size: 1.3rem;
-    font-style: normal;
-    line-height: normal;
+  position: absolute;
+  right: 1rem;
+  width: 9.25rem;
+  height: 2.5rem;
+  border-radius: 3.0625rem;
+  border: 0px solid var(--white);
+  background: var(--primary);
+  color: var(--input-bg-color);
+  font-family: okemah light, sans-serif;
+  font-size: 1.3rem;
+  font-style: normal;
+  line-height: normal;
 }
 
 .get-in-touch {
-    background: var(--primary);
-    padding: 15vh 1.5vw 15vh 1.5vw;
-
+  background: var(--primary);
+  padding: 15vh 1.5vw 15vh 1.5vw;
 }
 
 .contact-head-txt {
-    color: var(--input-bg-color);
-    font-size: 3.1875rem;
-    font-style: normal;
-    line-height: normal;
+  color: var(--input-bg-color);
+  font-size: 3.1875rem;
+  font-style: normal;
+  line-height: normal;
 }
 
 .contact-img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 .get-in-touch-input input,
 .get-in-touch-input textarea {
-    border-radius: 0.75rem;
-    width: 100%;
-    height: 4.125rem;
-    flex-shrink: 0;
-    border: none;
-    padding: 0 2rem;
+  border-radius: 0.75rem;
+  width: 100%;
+  height: 4.125rem;
+  flex-shrink: 0;
+  border: none;
+  padding: 0 2rem;
 }
 
 .get-in-touch-input input::placeholder,
 .get-in-touch-input textarea::placeholder {
-    color: var(--primary);
-    font-family: okeman light, sans-serif;
-    font-size: 1rem;
-    font-style: normal;
-    line-height: normal;
+  color: var(--primary);
+  font-family: okeman light, sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  line-height: normal;
 }
 
 .get-in-touch-input input:focus-visible,
 .get-in-touch-input textarea:focus-visible {
-    outline: none;
+  outline: none;
 }
 
 input[type="text"] {
-    background: #F9C96E;
+  background: #f9c96e;
 }
 
 input[type="email"] {
-    background: #FBD080;
+  background: #fbd080;
 }
 
 input[type="number"] {
-    background: #FBD07F;
+  background: #fbd07f;
 }
 
 textarea {
-    background: #FCD58D;
-    padding-top: 1rem !important;
+  background: #fcd58d;
+  padding-top: 1rem !important;
 }
 
 .btn-send {
-    width: 12rem;
-    height: 3.5rem;
-    flex-shrink: 0;
-    border-radius: 1.5625rem;
-    background: #FCD58D;
+  width: 12rem;
+  height: 3.5rem;
+  flex-shrink: 0;
+  border-radius: 1.5625rem;
+  background: #fcd58d;
 }
 
 @media (max-width: 576px) {
-    .newsletter-input {
-        width: 22rem;
-    }
+  .newsletter-input {
+    width: 22rem;
+  }
 
-    .btn-subscribe {
-        right: 1rem;
-    }
+  .btn-subscribe {
+    right: 1rem;
+  }
 }

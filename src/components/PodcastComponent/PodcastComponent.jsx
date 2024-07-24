@@ -11,7 +11,7 @@ const PodcastComponent = () => {
             <Container fluid>
                 <Row>
                     <Col sm={`12`}>
-                        <h2 className="podcast-head-txt">PodCast Episodes</h2>
+                        <h2 className="podcast-head-txt">Podcast Episodes</h2>
                     </Col>
 
                     <Col sm={`12`}>
