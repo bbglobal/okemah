@@ -10,9 +10,60 @@ import { NavLink } from 'react-router-dom'
 import { Col, Container, Row } from 'react-bootstrap'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { FreeMode, Navigation, Autoplay } from 'swiper/modules';
+import { useState, useEffect } from 'react'
+import axios from "axios";
 import './style.css'
 
 const Store = () => {
+
+    const [products, setProducts] = useState([]);
+
+
+    useEffect(() => {
+        const fetchProducts = async () => {
+            try {
+                const response = await axios.post(
+                    `https://1a1f85-96.myshopify.com/api/2023-07/graphql.json`,
+                    {
+                        query: `{
+                        products(first: 10) {
+                        edges {
+                            node {
+                            id
+                            title
+                            description
+                            images(first: 1) {
+                                edges {
+                                node {
+                                    src
+                                    altText
+                                }
+                                }
+                            }
+                            }
+                        }
+                        }
+                    }
+                    `,
+                    },
+                    {
+                        headers: {
+                            'Content-Type': 'application/json',
+                            'X-Shopify-Storefront-Access-Token': 'eca1209b7b28f7e4c0cbecf32c8da5d9',
+                        },
+                    }
+                );
+                setProducts(response.data.data.products.edges);
+                console.log(response.data.data.products.edges);
+            } catch (error) {
+                console.error('Error fetching products:', error);
+            }
+        };
+
+        fetchProducts();
+    }, []);
+
+
     return (
         <main className='store-page'>
             <Hero
@@ -30,15 +81,24 @@ const Store = () => {
                         <Col sm={12}>
                             <h2 className="category-head-txt">Shop By Category</h2>
                         </Col>
-                        <Col sm={12} md={6} lg={3}>
-                            <NavLink to={`#`}>
-                                <div className="category-box"></div>
-                                <p className="category-title">
-                                    Metal Sign
-                                </p>
-                            </NavLink>
-                        </Col>
-                        <Col sm={12} md={6} lg={3}>
+                        {products.map((product) => (
+                            <Col sm={12} md={6} lg={3} key={product.node.id}>
+                                <NavLink to={`#`}>
+                                    <div className="category-box">
+                                        {product.node.images.edges.length > 0 && (
+                                            <img
+                                                src={product.node.images.edges[0].node.src}
+                                                alt={product.node.images.edges[0].node.altText || 'Product Image'}
+                                            style={{width: "100%"}}/>
+                                        )}
+                                    </div>
+                                    <p className="category-title">
+                                        {product.node.title}
+                                    </p>
+                                </NavLink>
+                            </Col>
+                        ))}
+                        {/* <Col sm={12} md={6} lg={3}>
                             <NavLink to={`#`}>
                                 <div className="category-box"></div>
                                 <p className="category-title">
@@ -93,7 +153,7 @@ const Store = () => {
                                     KId/Baby
                                 </p>
                             </NavLink>
-                        </Col>
+                        </Col> */}
                     </Row>
                 </Container>
             </section>
@@ -196,22 +256,22 @@ const Store = () => {
                     }}
                     breakpoints={{
                         576: {
-                          slidesPerView: 1,
-                          spaceBetween: 10,
+                            slidesPerView: 1,
+                            spaceBetween: 10,
                         },
                         640: {
-                          slidesPerView: 2,
-                          spaceBetween: 20,
+                            slidesPerView: 2,
+                            spaceBetween: 20,
                         },
                         768: {
-                          slidesPerView: 3,
-                          spaceBetween: 40,
+                            slidesPerView: 3,
+                            spaceBetween: 40,
                         },
                         1024: {
-                          slidesPerView: 4,
-                          spaceBetween: 50,
+                            slidesPerView: 4,
+                            spaceBetween: 50,
                         },
-                      }}
+                    }}
                     navigation={true}
                     modules={[FreeMode, Navigation, Autoplay]}
                     className="mySwiper">
